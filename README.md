@@ -9,7 +9,6 @@ It's open source, using GPL 3.0 license, and it takes great inspiration from [@l
 - Porkbun API's public and secret key.
 - Porkbun API activated for the domain you want to use.
 - Curl, can be installed using `opkg install curl`.
-- GNU Wget with SSL support, can be installed using `opkg install wget`.
 - (If using HTTPS) System CA certificates, can be installed using `opkg install ca-certificates`.
 
 ## Installation

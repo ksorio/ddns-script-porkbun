@@ -16,7 +16,6 @@
 
 # Check configurations
 [ -z "$CURL" ] && write_log 13 "Curl not found"
-[ -z "$WGET_SSL" ] && write_log 13 "GNU Wget with SSL support not found"
 [ -z "$username" ] && write_log 13 "Missing API public"
 [ -z "$password" ] && write_log 13 "Missing API secret"
 [ -z "$domain" ] && write_log 13 "Missing domain"
