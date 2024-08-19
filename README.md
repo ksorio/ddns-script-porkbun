@@ -8,6 +8,7 @@ It's open source, using GPL 3.0 license, and it takes great inspiration from [@l
 - A dynamic public IP address (either IPv4 or IPv6).
 - Porkbun API's public and secret key.
 - Porkbun API activated for the domain you want to use.
+- An existing `A` record on your domain (you should delete the `CNAME` and `ALIAS` records they start new domains with).
 - Curl, can be installed using `opkg install curl`.
 - (If using HTTPS) System CA certificates, can be installed using `opkg install ca-certificates`.
 
